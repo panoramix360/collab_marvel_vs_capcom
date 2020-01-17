@@ -6,16 +6,10 @@ using UnityEngine.UI;
 public class SlidingBackground : MonoBehaviour
 {
     public float scrollSpeed;
-
-    private Image image;
-
-    private void Start()
-    {
-        image = GetComponent<Image>();
-    }
+    public Renderer renderer;
 
     private void Update()
     {
-        gameObject.GetComponent<Image>().material.mainTextureOffset = new Vector2(0f, Time.time * scrollSpeed);
+        renderer.material.mainTextureOffset += new Vector2(0f, scrollSpeed * Time.deltaTime);
     }
 }
