@@ -16,6 +16,6 @@ public class SlidingBackground : MonoBehaviour
 
     private void Update()
     {
-        image.material.mainTextureOffset = new Vector2(0f, Time.time * scrollSpeed);
+        gameObject.GetComponent<Image>().material.mainTextureOffset = new Vector2(0f, Time.time * scrollSpeed);
     }
 }
