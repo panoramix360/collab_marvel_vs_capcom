@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Mini : MonoBehaviour
 {
     public string characterName;
-    public string artistInstagram;
+    public string[] artistInstagrams;
     public Sprite[] sprites;
     public GameObject container;
 

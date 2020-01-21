@@ -27,7 +27,7 @@ public class GameController : Singleton<GameController>
 
         characterImage.sprite = characterSelected.sprites[spriteIndex];
         characterName.text = characterSelected.characterName;
-        artistInstagram.text = characterSelected.artistInstagram;
+        artistInstagram.text = characterSelected.artistInstagrams[spriteIndex];
     }
 
     public void NextMusic()
