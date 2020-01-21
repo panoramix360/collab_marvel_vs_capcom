@@ -15,20 +15,17 @@ public class GameController : Singleton<GameController>
 
     private Mini characterSelected;
 
-    public void SetCharacterSelected(Mini characterToSelect)
+    public void SetCharacterSelected(Mini characterToSelect, int spriteIndex)
     {
-        if (characterSelected != null)
+        if (characterSelected != null && characterSelected.characterName != characterToSelect.characterName)
         {
-            if (characterSelected.characterName == characterToSelect.characterName)
-            {
-                return;
-            }
             characterSelected.PlayIdle();
+            characterSelected.Reset();
         }
 
         characterSelected = characterToSelect;
 
-        characterImage.sprite = characterSelected.image.GetComponent<Image>().sprite;
+        characterImage.sprite = characterSelected.sprites[spriteIndex];
         characterName.text = characterSelected.characterName;
         artistInstagram.text = characterSelected.artistInstagram;
     }
