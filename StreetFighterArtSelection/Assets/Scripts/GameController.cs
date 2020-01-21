@@ -11,6 +11,7 @@ public class GameController : Singleton<GameController>
 
     public GameObject audio;
     public AudioClip[] musics;
+    private int musicIndex = 0;
 
     private Mini characterSelected;
 
@@ -34,6 +35,14 @@ public class GameController : Singleton<GameController>
 
     public void NextMusic()
     {
+        musicIndex++;
+        if (musics.Length == musicIndex)
+        {
+            musicIndex = 0;
+        }
 
+        AudioSource audioSource = audio.GetComponent<AudioSource>();
+        audioSource.clip = musics[musicIndex];
+        audioSource.Play();
     }
 }
