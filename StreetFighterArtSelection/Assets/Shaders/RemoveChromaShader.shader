@@ -38,7 +38,5 @@
 			}
 			ENDCG
 		}
-	} 
-	
-	FallBack "Unlit"
+	}
 }

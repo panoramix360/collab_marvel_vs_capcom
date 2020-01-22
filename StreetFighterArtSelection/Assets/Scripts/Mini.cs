@@ -36,7 +36,6 @@ public class Mini : MonoBehaviour
 
     public void OnClick()
     {
-        Debug.Log("OnClick: " + characterName);
         animator.SetBool("play", true);
         GameController.Instance.SetCharacterSelected(this, NextSprite());
     }
