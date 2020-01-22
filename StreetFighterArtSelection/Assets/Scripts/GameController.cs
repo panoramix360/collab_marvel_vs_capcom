@@ -39,7 +39,16 @@ public class GameController : Singleton<GameController>
         }
 
         AudioSource audioSource = audio.GetComponent<AudioSource>();
-        audioSource.clip = musics[musicIndex];
+        if (audioSource.isPlaying)
+        {
+            audioSource.clip = musics[musicIndex];
+        }
         audioSource.Play();
+    }
+
+    public void StopMusic()
+    {
+        AudioSource audioSource = audio.GetComponent<AudioSource>();
+        audioSource.Stop();
     }
 }
