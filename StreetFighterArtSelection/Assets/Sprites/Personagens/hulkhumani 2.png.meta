@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 9c13f094f550947bdb5d56eec172e9bf
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6207966634277668945
+    second: hulkhumani 2_0
+  - first:
+      213: -2191103653488288283
+    second: hulkhumani 2_1
+  - first:
+      213: 4536257395403709377
+    second: hulkhumani 2_2
+  - first:
+      213: -1219350950003312514
+    second: hulkhumani 2_3
+  - first:
+      213: -773686595756893782
+    second: hulkhumani 2_4
+  - first:
+      213: -3191875912963482605
+    second: hulkhumani 2_5
+  - first:
+      213: 7265486495368332630
+    second: hulkhumani 2_6
+  - first:
+      213: -3500297536870650587
+    second: hulkhumani 2_7
+  - first:
+      213: -9107748333556665505
+    second: hulkhumani 2_8
+  - first:
+      213: 7014812448339879872
+    second: hulkhumani 2_9
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -70,9 +100,243 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: hulkhumani 2_0
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 248
+        width: 1584
+        height: 3209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca6aee6f2ccf43f7bdd21f338b416a7
+      internalID: 6207966634277668945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_1
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 68
+        width: 141
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9293a06ff77f74698a3cbe581873560e
+      internalID: -2191103653488288283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_2
+      rect:
+        serializedVersion: 2
+        x: 2754
+        y: 83
+        width: 62
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0350d309b062843f1b17e70b742a5e8a
+      internalID: 4536257395403709377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_3
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 176
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f64f3fda6d24f5c96f89ca984aa57a
+      internalID: -1219350950003312514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_4
+      rect:
+        serializedVersion: 2
+        x: 3172
+        y: 176
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8890090f30ea746938d01a64ccf18f71
+      internalID: -773686595756893782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_5
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 43
+        width: 98
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bfdc0a4ed094ceb8fcee9ab8f90e60
+      internalID: -3191875912963482605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_6
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 43
+        width: 46
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b3f4d1052444890b8d134e7970ecc2
+      internalID: 7265486495368332630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_7
+      rect:
+        serializedVersion: 2
+        x: 2969
+        y: 79
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c33552840fb4d0eb35b91a0e92219b
+      internalID: -3500297536870650587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_8
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 81
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7d9c9ee0b874b6d85620923aed9918
+      internalID: -9107748333556665505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hulkhumani 2_9
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 83
+        width: 31
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fd03beb6f3c4f87a1d89d4b007339e
+      internalID: 7014812448339879872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

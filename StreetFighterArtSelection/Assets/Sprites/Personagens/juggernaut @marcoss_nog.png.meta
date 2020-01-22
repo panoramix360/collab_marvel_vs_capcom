@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: c0ea3574d2e214b5a9a644d0c080beba
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3219496114181443069
+    second: juggernaut @marcoss_nog_0
+  - first:
+      213: 3174653784186339860
+    second: juggernaut @marcoss_nog_1
+  - first:
+      213: 1812332414025309166
+    second: juggernaut @marcoss_nog_2
+  - first:
+      213: -8918708339643431534
+    second: juggernaut @marcoss_nog_3
+  - first:
+      213: -3280149113752903462
+    second: juggernaut @marcoss_nog_4
+  - first:
+      213: -432684337778889220
+    second: juggernaut @marcoss_nog_5
+  - first:
+      213: 6212581174511610883
+    second: juggernaut @marcoss_nog_6
+  - first:
+      213: 3275525261775355809
+    second: juggernaut @marcoss_nog_7
+  - first:
+      213: -4673164635302711218
+    second: juggernaut @marcoss_nog_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +97,222 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 168
+        width: 2942
+        height: 2232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eee3b1d1ad7487fb91af0ece35b80e
+      internalID: 3219496114181443069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_1
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 81
+        width: 59
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4f058ddf670402eb7b9aa89c3e7668
+      internalID: 3174653784186339860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_2
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 79
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f735aa39e50a946c1af155045ecf81fa
+      internalID: 1812332414025309166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_3
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 58
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab7978c57dce4d6d832a66d3d1d4b6a
+      internalID: -8918708339643431534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_4
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 32
+        width: 55
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588d6c01f6d7242f79cebe173b0429a2
+      internalID: -3280149113752903462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_5
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 25
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eedc4f9c12894ef9865110691735d74
+      internalID: -432684337778889220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_6
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 19
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8b9c96d9f5b41f4b4a2bcea1803ec3
+      internalID: 6212581174511610883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_7
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 21
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ed763d3d7004a9b93670bb4406bb1b
+      internalID: 3275525261775355809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: juggernaut @marcoss_nog_8
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 0
+        width: 53
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6b742d910c44eada2d56e08e957852
+      internalID: -4673164635302711218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

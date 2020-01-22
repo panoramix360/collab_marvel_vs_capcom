@@ -1,7 +1,55 @@
 fileFormatVersion: 2
 guid: 12f8b02cd621841689837dee2eba69e8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6603863990407875172
+    second: Wolverine_Skin_@verdeneon__0
+  - first:
+      213: 4835051354716750390
+    second: Wolverine_Skin_@verdeneon__1
+  - first:
+      213: -8906683778423083620
+    second: Wolverine_Skin_@verdeneon__2
+  - first:
+      213: 2440306398667491355
+    second: Wolverine_Skin_@verdeneon__3
+  - first:
+      213: 5694111293919717635
+    second: Wolverine_Skin_@verdeneon__4
+  - first:
+      213: 3499960730605095231
+    second: Wolverine_Skin_@verdeneon__5
+  - first:
+      213: -3700611809598485483
+    second: Wolverine_Skin_@verdeneon__6
+  - first:
+      213: -8193199658846302810
+    second: Wolverine_Skin_@verdeneon__7
+  - first:
+      213: 4273530354117672274
+    second: Wolverine_Skin_@verdeneon__8
+  - first:
+      213: -81893064258229608
+    second: Wolverine_Skin_@verdeneon__9
+  - first:
+      213: -987766779811928937
+    second: Wolverine_Skin_@verdeneon__10
+  - first:
+      213: 8157304820613508386
+    second: Wolverine_Skin_@verdeneon__11
+  - first:
+      213: 4403281511003380280
+    second: Wolverine_Skin_@verdeneon__12
+  - first:
+      213: -9184590319226169997
+    second: Wolverine_Skin_@verdeneon__13
+  - first:
+      213: 1067528588999700666
+    second: Wolverine_Skin_@verdeneon__14
+  - first:
+      213: -7030639997399496385
+    second: Wolverine_Skin_@verdeneon__15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +88,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +118,369 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__0
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 6
+        width: 848
+        height: 897
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2d1b8e89ea440a2b47363a5f65b65c
+      internalID: 6603863990407875172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 393
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663b3c1e27074430790af6b6573e309b
+      internalID: 4835051354716750390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 371
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc3153df339649a391945b2aa90a71b
+      internalID: -8906683778423083620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 385
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c93b4ad04ad44a590b3160ee5a0b88
+      internalID: 2440306398667491355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__4
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 343
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb92f67aa5e3b4869af67ef574a0305c
+      internalID: 5694111293919717635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__5
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 293
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30011bab26a2a4d1cae9a5a74731d437
+      internalID: 3499960730605095231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__6
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 314
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d28e799f4034801b6e6e50daf4f221
+      internalID: -3700611809598485483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 274
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a352f69bed59d451fa1261dc5a219b63
+      internalID: -8193199658846302810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 289
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab0b8e3cb9e64845a0624a7def239f0
+      internalID: 4273530354117672274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 270
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a075575643fb49c2b961e78d60312a3
+      internalID: -81893064258229608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__10
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 267
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131d8167be5554167b5f573830ce9919
+      internalID: -987766779811928937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 224
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118ee59af4c764ee09f09ac00b529519
+      internalID: 8157304820613508386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 248
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ca9cbede1654c029bc6e73e0a17a79
+      internalID: 4403281511003380280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__13
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 232
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d15f68355ff404f8a91aa591ee004c
+      internalID: -9184590319226169997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 200
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f19490eed444e608b76e04627914d5
+      internalID: 1067528588999700666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wolverine_Skin_@verdeneon__15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 192
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cf1ed5a2ce345748be0c0c6d6af21a
+      internalID: -7030639997399496385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
