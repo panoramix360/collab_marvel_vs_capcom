@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameController : Singleton<GameController>
 {
     public Image characterImage;
+    public GameObject capa;
     public Text characterName;
     public Text artistInstagram;
 
@@ -14,9 +15,16 @@ public class GameController : Singleton<GameController>
     private int musicIndex = 0;
 
     private Mini characterSelected;
+    private bool firstTimeClicked = true;
 
     public void SetCharacterSelected(Mini characterToSelect, int spriteIndex)
     {
+        if (firstTimeClicked)
+        {
+            characterImage.gameObject.SetActive(true);
+            Destroy(capa);
+        }
+
         if (characterSelected != null && characterSelected.characterName != characterToSelect.characterName)
         {
             characterSelected.PlayIdle();
