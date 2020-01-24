@@ -10,6 +10,9 @@ public class GameController : Singleton<GameController>
     public Text characterName;
     public Text artistInstagram;
 
+    public GameObject dhalsim;
+    public GameObject gambit;
+
     public GameObject audio;
     public AudioClip[] musics;
     private int musicIndex = 0;
@@ -33,9 +36,30 @@ public class GameController : Singleton<GameController>
 
         characterSelected = characterToSelect;
 
+        string dhalsimArtist = "@taj_tajima";
+        string gambitArtist = "@byulabyu";
+        string currentInstagramArtist = characterSelected.artistInstagrams[spriteIndex];
+        if (currentInstagramArtist == dhalsimArtist || currentInstagramArtist == gambitArtist)
+        {
+            if (currentInstagramArtist == dhalsimArtist)
+            {
+                dhalsim.SetActive(true);
+            } else
+            {
+                gambit.SetActive(true);
+            }
+            characterImage.gameObject.SetActive(false);
+        }
+        else
+        {
+            dhalsim.SetActive(false);
+            gambit.SetActive(false);
+            characterImage.gameObject.SetActive(true);
+        }
+
         characterImage.sprite = characterSelected.sprites[spriteIndex];
         characterName.text = characterSelected.characterName;
-        artistInstagram.text = characterSelected.artistInstagrams[spriteIndex];
+        artistInstagram.text = currentInstagramArtist;
     }
 
     public void NextMusic()
