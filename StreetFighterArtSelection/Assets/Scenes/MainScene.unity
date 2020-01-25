@@ -10170,9 +10170,9 @@ MonoBehaviour:
   gambit: {fileID: 984467312}
   audio: {fileID: 1573479193}
   musics:
-  - {fileID: 8300000, guid: fbeae9e1a64df4db98d5fa12dc4def43, type: 3}
-  - {fileID: 8300000, guid: 818828c8ac3f14b939f783c0a419598c, type: 3}
-  - {fileID: 8300000, guid: 9990450761d2cae49ae3c5d97e224a3d, type: 3}
+  - Audios/MainTheme
+  - Audios/SecondTheme
+  - Audios/ThirdTheme
 --- !u!1001 &1561496948
 PrefabInstance:
   m_ObjectHideFlags: 0

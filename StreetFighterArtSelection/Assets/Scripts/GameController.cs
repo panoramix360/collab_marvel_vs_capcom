@@ -14,11 +14,17 @@ public class GameController : Singleton<GameController>
     public GameObject gambit;
 
     public GameObject audio;
-    public AudioClip[] musics;
+    public string[] musics;
+    private AudioClip currentAudio;
     private int musicIndex = 0;
 
     private Mini characterSelected;
     private bool firstTimeClicked = true;
+
+    private void Start()
+    {
+        currentAudio = audio.GetComponent<AudioSource>().clip;
+    }
 
     public void SetCharacterSelected(Mini characterToSelect, int spriteIndex)
     {
@@ -73,7 +79,9 @@ public class GameController : Singleton<GameController>
         AudioSource audioSource = audio.GetComponent<AudioSource>();
         if (audioSource.isPlaying)
         {
-            audioSource.clip = musics[musicIndex];
+            Resources.UnloadAsset(currentAudio);
+            currentAudio = Resources.Load<AudioClip>(musics[musicIndex]);
+            audioSource.clip = currentAudio;
         }
         audioSource.Play();
     }
